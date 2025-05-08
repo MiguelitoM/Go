@@ -1,6 +1,6 @@
 import pytest
 import sys
-project_filename = 'projectoFP.py'
+project_filename = 'Project.py'
 TAD_CODE_PATH = '/Users/alberto/WORK/local/FP23/prj/p2/private/TAD_code/'
 # from projectoFP import *
 
