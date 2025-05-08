@@ -1,6 +1,6 @@
 import pytest 
 import sys
-from FP2324P2 import * # <--- Change the name projectoFP to the file name with your project
+from Project import * # <--- Change the name projectoFP to the file name with your project
 
 class TestPublicIntersecao:
 
