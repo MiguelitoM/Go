@@ -1,4 +1,4 @@
-## 🎯 Go – The Strategy Game
+# Go – The Strategy Game
 
 ### Goban  
 The **Goban** is a square board used to play Go, typically with dimensions 9×9, 13×13, or 19×19. It consists of **intersections** formed by rows (numbered from 1 to N) and columns (labeled from A to S), where players place their stones.  
@@ -16,7 +16,7 @@ Players alternate turns placing stones on free intersections. Once placed, stone
 - A **liberty** of a stone is any directly adjacent empty intersection. If a stone or a chain loses all its liberties, it is captured and removed from the board.  
 - A **territory** is a group of connected empty intersections completely surrounded by stones of a single player.  
 
-### Game Rules  
+## Game Rules  
 The game starts with an empty board. The **black player plays first**, and turns alternate. Each turn, a player may:  
 - **place a stone**, or  
 - **pass** (i.e., skip their turn).  
@@ -27,11 +27,17 @@ There are two important restrictions:
 
 The game ends when both players pass consecutively.  
 
-### Objective of the Project  
-The goal of this programming project is to **implement a playable version of Go** in Python. Students must define appropriate **abstract data types** (ADTs) for stones, intersections, and the Goban, and implement the rules and mechanisms for:  
-- stone placement and capture,  
-- chain identification,  
-- territory evaluation,  
-- and final scoring.  
+## 🧪 Tests
 
-The project culminates with a function that enables **two players to play a full match of Go** on a configurable board size.
+Automated tests are provided using the `pytest` framework.
+
+1. Install the testing module:
+```bash
+pip install pytest
+```
+
+2. Run the available tests:
+```bash
+pytest test_public.py
+pytest test_private.py
+```
